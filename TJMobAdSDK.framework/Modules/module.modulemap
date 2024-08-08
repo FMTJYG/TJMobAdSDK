@@ -1,0 +1,6 @@
+framework module TJMobAdSDK {
+  umbrella header "TJMobAdSDK.h"
+  export *
+
+  module * { export * }
+}
