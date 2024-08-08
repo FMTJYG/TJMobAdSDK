@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "TJMobAdSDK"
-  spec.version      = "0.1.0"
+  spec.version      = "0.2.0"
   spec.summary      = "A description of the advertisement"
   
   spec.description  = <<-DESC
