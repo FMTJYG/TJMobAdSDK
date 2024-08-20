@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "TJMobAdSDK"
-  spec.version      = "0.2.0"
+  spec.version      = "0.9.0"
   spec.summary      = "A description of the advertisement"
   
   spec.description  = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   
   spec.vendored_frameworks = 'TJMobAdSDK.framework'
   
-  spec.frameworks   = 'UIKit', 'Foundation'
+  spec.frameworks   = 'UIKit', 'Foundation', 'AVFoundation'
   
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
